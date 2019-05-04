@@ -19,6 +19,7 @@ class m150429_155009_create_page_table extends Migration
     {
         parent::init();
         $this->_tableName = Yii::$app->getModule('pages')->tableName;
+        if ($this->_tableName = '') $this->_tableName = 'pages'
     }
     
     public function up()
