@@ -18,6 +18,7 @@ class m180927_200917_add_display_title extends Migration
     {
         parent::init();
         $this->_tableName = Yii::$app->getModule('pages')->tableName;
+        if ($this->_tableName = '') $this->_tableName = 'pages';
     }
 
     public function safeUp()
