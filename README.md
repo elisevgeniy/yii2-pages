@@ -1,4 +1,4 @@
-yii2-pages
+yii2-pages sqlite3 mod
 ==========
 
 [![Latest Stable Version](https://poser.pugx.org/bupy7/yii2-pages/v/stable)](https://packagist.org/packages/bupy7/yii2-page)
